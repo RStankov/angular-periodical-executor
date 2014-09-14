@@ -1,0 +1,28 @@
+{
+  "name": "PeriodicalExecutor",
+  "version": "0.0.1",
+  "homepage": "https://github.com/RStankov/angular-periodical-executor",
+  "authors": [
+    "Radoslav Stankov <rstankov@gmail.com>"
+  ],
+  "description": "PeriodicalExecutor service for angular.js",
+  "main": "lib/periodical_executor.js",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "ignore": [
+    "tests",
+    "bower.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ]
+}

@@ -1,0 +1,45 @@
+PeriodicalExecutor
+=====================
+
+### Example usage
+
+```js
+app.controller('ExampleCtrl', function($scope, PeriodicalExecutor) {
+  var timer = PeriodicalExecutor(10, function(){
+    // ... code ...
+  });
+
+  $scope.$on('$destroy', function() {
+    timer.stop();
+  });
+});
+```
+
+### Requirements
+
+```
+angular.js
+```
+
+### Installation
+
+Include [lib/periodical_executor.js](https://github.com/RStankov/angular-simple-format/blob/master/lib/periodical_executor.js) into your page and then list `PeriodicalExecutor` as your module dependency.
+
+```js
+window.app = angular.module('YourApp', ['PeriodicalExecutor'])
+```
+
+### Running the tests
+
+Install bower developer dependencies - ```bower install```.
+
+Just open - ```test/runner.html```.
+
+### Contributing
+
+Every fresh idea and contribution will be highly appreciated.
+
+### License
+
+MIT License.
+
