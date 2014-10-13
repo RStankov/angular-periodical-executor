@@ -4,14 +4,17 @@ function loadModule(module, name) {
   name || (name = module);
 
   var loaded;
-  angular.injector(['ng', module], false).invoke(function() {
-  });
+  angular.injector(['ng', module], false).invoke([name, function(module) {
+    loaded = module;
+  }]);
 
   return loaded;
 }
 
 describe('PeriodicalExecutor', function() {
   this.timeout(10);
+
+  var PeriodicalExecutor = loadModule('PeriodicalExecutor');
 
   it("executes callback periodically", function(done) {
     var times = 0;
