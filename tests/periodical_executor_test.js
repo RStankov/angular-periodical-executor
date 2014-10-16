@@ -42,4 +42,19 @@ describe('PeriodicalExecutor', function() {
     timer.stop();
     timer.start();
   });
+
+  describe("#isRunning", function() {
+    it("returns true if timer is running", function ()  {
+      var timer = new PeriodicalExecutor(2, function() {});
+
+      expect(timer.isRunning()).to.eq(true);
+    });
+
+    it("returns false if timer is running", function ()  {
+      var timer = new PeriodicalExecutor(2, function() {});
+      timer.stop();
+
+      expect(timer.isRunning()).to.eq(false);
+    });
+  });
 });
