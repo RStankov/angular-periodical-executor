@@ -12,7 +12,7 @@ function loadModule(module, name) {
 }
 
 describe('PeriodicalExecutor', function() {
-  this.timeout(10);
+  this.timeout(30);
 
   var PeriodicalExecutor = loadModule('PeriodicalExecutor');
 
