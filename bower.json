@@ -6,7 +6,7 @@
     "Radoslav Stankov <rstankov@gmail.com>"
   ],
   "description": "PeriodicalExecutor service for angular.js",
-  "main": "lib/periodical_executor.js",
+  "main": "src/periodical_executor.js",
   "keywords": [
     "angular"
   ],

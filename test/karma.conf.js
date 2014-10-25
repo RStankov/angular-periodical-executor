@@ -20,7 +20,7 @@ module.exports = function(config) {
       'bower_components/chai/chai.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
-      'lib/*.js',
+      'src/*.js',
       'test/test_helper.js',
       'test/*_test.js'
     ],

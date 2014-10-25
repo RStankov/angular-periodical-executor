@@ -23,7 +23,7 @@ angular.js
 
 ### Installation
 
-Include [lib/periodical_executor.js](https://github.com/RStankov/angular-simple-format/blob/master/lib/periodical_executor.js) into your page and then list `PeriodicalExecutor` as your module dependency.
+Include [src/periodical_executor.js](https://github.com/RStankov/angular-simple-format/blob/master/src/periodical_executor.js) into your page and then list `PeriodicalExecutor` as your module dependency.
 
 ```js
 window.app = angular.module('YourApp', ['PeriodicalExecutor'])
