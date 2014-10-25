@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     karma: {
       options: {
-        configFile: 'tests/karma.conf.js'
+        configFile: 'test/karma.conf.js'
       },
       build: {
         singleRun: true,
