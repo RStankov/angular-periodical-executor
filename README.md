@@ -1,4 +1,5 @@
 [![Build Status](https://secure.travis-ci.org/RStankov/angular-periodical-executor.png)](http://travis-ci.org/RStankov/angular-periodical-executor)
+[![Code Climate](https://codeclimate.com/github/RStankov/angular-periodical-executor.png)](https://codeclimate.com/github/RStankov/angular-periodical-executor)
 
 PeriodicalExecutor
 =====================
