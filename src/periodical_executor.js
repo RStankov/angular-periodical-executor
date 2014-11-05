@@ -21,7 +21,7 @@ angular.module('PeriodicalExecutor', []).factory('PeriodicalExecutor', ['$interv
 
   PeriodicalExecutor.prototype.isRunning = function () {
     return !!this.timer;
-  }
+  };
 
   PeriodicalExecutor.prototype.start = function() {
     if (!this.timer) {
