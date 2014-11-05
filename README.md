@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/RStankov/angular-periodical-executor.png)](http://travis-ci.org/RStankov/angular-periodical-executor)
+
 PeriodicalExecutor
 =====================
 
