@@ -32,6 +32,12 @@ Include [src/periodical_executor.js](https://github.com/RStankov/angular-simple-
 window.app = angular.module('YourApp', ['PeriodicalExecutor'])
 ```
 
+Install via [Bower](http://bower.io/):
+
+```
+bower install angular-periodical-executor
+```
+
 ### Running the tests
 
 Install bower developer dependencies:
